@@ -1,0 +1,157 @@
+.Container {
+  display: flex;
+  /* justify-content: space-between; */
+  margin: 50px 0 0 0;
+  flex-wrap: wrap;
+  /* border: 1px solid green; */
+}
+
+.Container2 {
+  display: flex;
+  margin: 50px 0 0 0;
+  flex-wrap: wrap;
+  /* border: 1px solid blue; */
+  width: 700px;
+}
+
+.Text {
+  font-family: 'Ubuntu Mono' sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  color: #333333;
+}
+
+.Text2 {
+  color: #828282;
+}
+
+.Text3 {
+  font-family: 'Noto Sans JP' sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: #828282;
+  padding: 0;
+  margin: 0;
+}
+
+.Label {
+  display: block;
+  font-family: 'Noto Sans JP' sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+.Label2 {
+  color: #2962ff;
+}
+
+.Label3 {
+  color: #d32f2f;
+}
+
+.InputClass {
+  width: 200px;
+  height: 56px;
+  border: 1px solid #828282;
+  border-radius: 8px;
+  outline: none;
+}
+
+.InputSmall {
+  height: 40px;
+}
+
+.InputFullWidth {
+  width: 1050px;
+}
+
+.InputFullHeight {
+  height: 150px;
+}
+
+.InputClassError {
+  width: 200px;
+  height: 56px;
+  border: 1px solid #d32f2f;
+  border-radius: 8px;
+  outline: none;
+}
+
+.InputClassError:focus {
+  border: 1px solid #d32f2f;
+}
+
+.InputClass2:hover {
+  border: 1px solid #333;
+}
+
+.InputClass3:focus {
+  border: 1px solid #2962ff;
+}
+
+.InputClassDisabled {
+  background: #f2f2f2;
+  border: 1px solid #e0e0e0;
+  cursor: not-allowed;
+}
+
+::placeholder {
+  font-family: 'Noto Sans JP' sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #828282;
+  padding-left: 5px;
+}
+
+.prototype {
+  margin: 10px 90px 10px 0;
+}
+
+input[type='text'] {
+  font-family: 'Noto Sans JP' sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+  padding-left: 15px;
+}
+
+input[type='tel'] {
+  margin-bottom: 30px;
+  background-image: url('../../images/local_phone.svg');
+  background-position: 10px 17px;
+  background-repeat: no-repeat;
+}
+
+input[type='tel']::placeholder {
+  padding-left: 35px;
+}
+
+input[type='email'] {
+  margin-bottom: 30px;
+  background-image: url('../../images/lock-black-18dp.svg');
+  background-position: 167px 17px;
+  background-repeat: no-repeat;
+}
+
+input[type='email']::placeholder {
+  padding-left: 10px;
+}
+
+input[type='textarea']::placeholder {
+  padding-left: 10px;
+  position: relative;
+  left: 0px;
+  top: -35px;
+}
